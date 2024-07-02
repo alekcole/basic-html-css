@@ -1,0 +1,21 @@
+สิงที่ได้เรียนวันนี้
+้- header
+- paragraph
+- title
+- image
+- table
+- th tr tbody thead td
+- html
+- ความกว้าง ความสูง
+- utf 8
+- meta
+- วิชามาร clt + v
+- tagname open tag, close tag
+- link 
+- list item
+- tagname อื่นๆ
+
+
+workshop 
+
+https://www.w3schools.com/html/exercise.asp?filename=exercise_html_basic1

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS DAY 2</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .body-text {
+            color: #fff;
+        }
+
+        .product {
+            text-align: center;
+        }
+
+        #box {
+            /* background-color: red; */
+        }
+
+        .text-small {
+            font-size: 14px;
+        }
+
+        .class-name {
+            font-size: 20px;
+            color: red;
+        }
+
+        #id-name {
+            font-size: 18px;
+            color: green;
+        }
+    </style>
+</head>
+
+<body class="body-text">
+    <div class="class-name">ผ่าน class font 20px, color red</div>
+    <div id="id-name">ผ่าน id name font 18px, color green</div>
+    <div style="font-size: 12px; color:yellow ;">ผ่าน inline style font 12px color yellow</div>
+    <div>
+        <!-- หัวข้อ -->
+        <h2>Top Seller</h2>
+        <!-- กำหนดความกว้างของกล่อง = 207px -->
+        <!-- <div style="width: 207px"> -->
+        <!-- width คือ กำนหดความกว้าง -->
+        <div style="width: 207px;" id="box">
+            <img width="207" src="img1.png" alt="">
+            <!-- กำหน class product ให้ข้อความอยู่ตรงกลาง -->
+            <!-- .product { text-align : center ;} -->
+            <!-- text-align คือ กำหนกตำแหน่งตัวอักษร -->
+            <div class="product">
+                <p>Elden Ring</p>
+                <!-- กำหนดขนาดตัวอักษร -->
+                <!-- .text-small {font-size: 14px;} -->
+                <!-- font-size คือ กำหนดขนาดตัวอักษร -->
+                <p class="text-small">$59.99</p>
+            </div>
+            <button>Buy</button>
+        </div>
+    </div>
+</body>
+
+</html>
