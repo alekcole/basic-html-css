@@ -6,6 +6,7 @@
     - margin
     - pending
     - border
+- max width
 - display
 
 ### link css file
@@ -27,6 +28,21 @@
 - padding
 - border 
 
+### max width
+
+```css
+div {
+   max-width: 300px;
+}
+```
+
+max-width + margin
+```css
+div {
+   max-width: 300px;
+   margin: 0 auto;
+}
+```
 
 ### Display
 
