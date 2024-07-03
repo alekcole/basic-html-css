@@ -27,6 +27,53 @@
 - margin
 - padding
 - border 
+- border-radius
+
+```css
+.margin {
+    margin: 10px;
+    /* แยกตามมุม */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* หรือ */
+    /* top left bottom right */
+    margin: 5px 10px 5px 10px;
+}
+
+.padding {
+    padding: 10px;
+    /* แยกตามมุม */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    /* หรือ */
+    /* top left bottom right */
+    padding: 5px 10px 5px 10px;
+}
+
+.border {
+    border: 1px solid #fff;
+    /* widht style color */
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.border-radius {
+    border-radius: 10px;
+     /* แยกตามมุม */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+      /* หรือ */
+    /* top left bottom right */
+    border-radius: 5px 10px 5px 10px;
+}
+```
 
 ### max width
 
