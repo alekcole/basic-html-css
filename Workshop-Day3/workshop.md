@@ -20,6 +20,6 @@
 ### Workshop 3
 จาก workshop วันที่ 1 เรื่อง "Business Plan" ในส่วนของตาราง table
 1. เพิ่ม ขนาด table เป็น 100%
-2. กำหนดสีของขอบตาราง และ ระยะด้านในให้กับ th หรืิิิอ td ให้ได้ตามตัวอย่าง workshop
+2. กำหนดสีของขอบตาราง และ ระยะด้านในให้กับ th หรือ td ให้ได้ตามตัวอย่าง workshop
 
 ตัวอย่าง (Business Plan)[https://www.canva.com/design/DAGJrGG765M/91dAleCWIVZz-AdmiPd7aw/view?embed]
