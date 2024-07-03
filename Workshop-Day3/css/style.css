@@ -2,10 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 
 body {
     background-color: black;
+    color: #fff;
 }
 
 div {
@@ -35,4 +37,12 @@ div {
 
     max-width: 400px;
     width: 100%;
+}
+
+.display {
+    display: none;
+}
+
+.visibility {
+    visibility: hidden;
 }

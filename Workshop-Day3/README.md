@@ -124,10 +124,8 @@ display รูปแบบอื่นๆ
 ```css
 div {
     display: block;
-    display: inline;
     display: none;
-    display: flex;
-    display: grid;
+    display: inline;
     visibility: hidden
 }
 ```
