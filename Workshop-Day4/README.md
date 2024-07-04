@@ -131,3 +131,43 @@
 - tag nav
 - link
 - css display flex
+
+1. html tag nav 
+```html
+<nav></nav>
+```
+2. list item
+```html
+<nav>
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+</nav>
+```
+
+3. custom list item
+```css
+nav {
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 10px 20px;
+    text-align: center;
+}
+```
