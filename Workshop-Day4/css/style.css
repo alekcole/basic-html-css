@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .container {
     max-width: 1280px;
@@ -7,7 +9,62 @@
     margin: 0 auto;
 }
 
-.grid {
+.bg-black {
+    background-color: black;
+    padding: 10px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-start {
+    justify-content: flex-start
+}
+.flex-end {
+    justify-content: flex-end
+}
+.center {
+    justify-content: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grid {
     display: grid;
 }
 
@@ -20,4 +77,4 @@
 }
 .col-span-2 {
     grid-column: span 2 / span 2;
-}
+} */
