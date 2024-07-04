@@ -7,13 +7,13 @@
 
 ### Google Fonts
 
-import font
+import font in html ```head``
 ```html 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 ```
-use font
+use font in css ```style```
 ```css
 .container {
      font-family: "Noto Sans Thai", sans-serif;
@@ -23,7 +23,7 @@ use font
 - [Google Fonts](https://fonts.google.com/)
 
 ### Display flex
-
+css
 ```css
 .flex {
     display: flex;
@@ -55,6 +55,7 @@ use font
 }
 ```
 
+html
 ```html
 <div class="flex space-evenly">
     <div class="item red"></div>
@@ -65,7 +66,7 @@ use font
 
 
 ### Dissplay grid
-
+css
 ```css
 .grid {
     display: grid;
@@ -109,7 +110,7 @@ use font
     grid-column: span 4 / span 4;
 }
 ```
-
+html
 ```html
 <!-- Display Grid -->
         <div class="grid grid-cols-3" style="margin-bottom: 1rem;">
@@ -146,10 +147,12 @@ use font
 - css display flex
 
 1. html tag nav 
+html
 ```html
 <nav></nav>
 ```
 2. list item
+html
 ```html
 <nav>
     <ul>
@@ -167,6 +170,7 @@ use font
 ```
 
 3. custom list item
+css
 ```css
 nav {
     padding: 10px;
