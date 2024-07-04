@@ -20,6 +20,10 @@ display: flex;
 
 ```css
 display: flex
+
+.grid-col {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
 ```
 
 ### Nav menu
